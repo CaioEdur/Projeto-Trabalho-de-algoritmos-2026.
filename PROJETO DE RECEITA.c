@@ -30,7 +30,9 @@ void P0 (){ //COMECO SESSAO DO PAO==============================================
 void P1 (){ //RECEITA COMPLETA
 	
 	int prosseguir;
-	printf("\nMODO DE PREPARO\n");
+	printf("+-------------------------------------------+\n");
+    printf("|               MODO DE PREPARO             |\n");
+    printf("+-------------------------------------------+\n");
 	printf("\nOBS: Use o digito 1 para o check de etapa, para dar prosseguimento\n");
 	
 	printf("1 - Misture os ingredientes secos, em uma tigela coloque a\n farinha, o fermento, o acucar e o melhorador case opte por usa-lo.\n ");
