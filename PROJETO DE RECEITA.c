@@ -33,7 +33,7 @@ void P1 (){ //RECEITA COMPLETA
 	printf("+-------------------------------------------+\n");
     printf("|               MODO DE PREPARO             |\n");
     printf("+-------------------------------------------+\n");
-	printf("\nOBS: Use o digito 1 para o check de etapa, para dar prosseguimento\n");
+	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 	
 	printf("1 - Misture os ingredientes secos, em uma tigela coloque a\n farinha, o fermento, o acucar e o melhorador case opte por usa-lo.\n ");
 	scanf("%d", &prosseguir);
@@ -70,8 +70,10 @@ void P1 (){ //RECEITA COMPLETA
 void P2 (){ //CASO NÃO TENHA LEITE E ÓLEO
 	
 	int prosseguir;
-	printf("\nMODO DE PREPARO\n");
-	printf("\nOBS: Use o digito 1 para o check de etapa, para dar prosseguimento\n");
+	printf("+-------------------------------------------+\n");
+    printf("|               MODO DE PREPARO             |\n");
+    printf("+-------------------------------------------+\n");
+	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 	
 	printf("1 - Misture os ingredientes secos, em uma tigela coloque a\n farinha, o fermento, o acucar e o melhorador case opte por usa-lo.\n ");
 	scanf("%d", &prosseguir);
@@ -88,8 +90,10 @@ void P2 (){ //CASO NÃO TENHA LEITE E ÓLEO
 
 void P3(){ //CASO NÃO TENHA AÇUCAR
     int prosseguir;
-	printf("\nMODO DE PREPARO\n");
-	printf("\nOBS: Use o digito 1 para o check de etapa, para dar prosseguimento\n");
+    printf("+-------------------------------------------+\n");
+    printf("|               MODO DE PREPARO             |\n");
+    printf("+-------------------------------------------+\n");	
+	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 	
 	printf("1 - Misture os ingredientes secos, em uma tigela coloque a\n farinha, o fermento, uma colher de chá de mel e o melhorador case opte por usa-lo.\n ");
 	scanf("%d", &prosseguir);
@@ -106,8 +110,10 @@ void P3(){ //CASO NÃO TENHA AÇUCAR
 
 void P4(){ //CASO NÃO TENHA AÇUCAR E LEITE
     int prosseguir;
-	printf("\nMODO DE PREPARO\n");
-	printf("\nOBS: Use o digito 1 para o check de etapa, para dar prosseguimento\n");
+	printf("+-------------------------------------------+\n");
+    printf("|               MODO DE PREPARO             |\n");
+    printf("+-------------------------------------------+\n");
+	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 	
 	printf("1 - Misture os ingredientes secos, em uma tigela coloque a\n farinha, o fermento, uma colher de chá de mel e o melhorador case opte por usa-lo.\n ");
 	scanf("%d", &prosseguir);
@@ -123,8 +129,10 @@ void P4(){ //CASO NÃO TENHA AÇUCAR E LEITE
 
 void P5(){ //CASO NÃO TENHA AÇUCAR E ÓLEO
     int prosseguir;
-	printf("\nMODO DE PREPARO\n");
-	printf("\nOBS: Use o digito 1 para o check de etapa, para dar prosseguimento\n");
+	printf("+-------------------------------------------+\n");
+    printf("|               MODO DE PREPARO             |\n");
+    printf("+-------------------------------------------+\n");
+	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 	
 	printf("1 - Misture os ingredientes secos, em uma tigela coloque a\n farinha, o fermento, uma colher de chá de mel e o melhorador case opte por usa-lo.\n ");
 	scanf("%d", &prosseguir);
@@ -140,8 +148,10 @@ void P5(){ //CASO NÃO TENHA AÇUCAR E ÓLEO
 
 void P6(){ //CASO NÃO TENHA LEITE
     int prosseguir;
-	printf("\nMODO DE PREPARO\n");
-	printf("\nOBS: Use o digito 1 para o check de etapa, para dar prosseguimento\n");
+	printf("+-------------------------------------------+\n");
+    printf("|               MODO DE PREPARO             |\n");
+    printf("+-------------------------------------------+\n");
+	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 	
 	printf("1 - Misture os ingredientes secos, em uma tigela coloque a\n farinha, o fermento, o acucar e o melhorador case opte por usa-lo.\n ");
 	scanf("%d", &prosseguir);
@@ -157,8 +167,10 @@ void P6(){ //CASO NÃO TENHA LEITE
 
 void P7(){ //CASO NÃO TENHA ÓLEO
     int prosseguir;
-	printf("\nMODO DE PREPARO\n");
-	printf("\nOBS: Use o digito 1 para o check de etapa, para dar prosseguimento\n");
+	printf("+-------------------------------------------+\n");
+    printf("|               MODO DE PREPARO             |\n");
+    printf("+-------------------------------------------+\n");
+	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 	
 	printf("1 - Misture os ingredientes secos, em uma tigela coloque a\n farinha, o fermento, o acucar e o melhorador case opte por usa-lo.\n ");
 	scanf("%d", &prosseguir);
@@ -174,8 +186,10 @@ void P7(){ //CASO NÃO TENHA ÓLEO
 
 void P8(){ //CASO NÃO TENHA AÇUCAR, LEITE E ÓLEO
     int prosseguir;
-	printf("\nMODO DE PREPARO\n");
-	printf("\nOBS: Use o digito 1 para o check de etapa, para dar prosseguimento\n");
+	printf("+-------------------------------------------+\n");
+    printf("|               MODO DE PREPARO             |\n");
+    printf("+-------------------------------------------+\n");
+	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 	
 	printf("1 - Misture os ingredientes secos, em uma tigela coloque a\n farinha, o fermento, use uma colher de chá de mel e o melhorador case opte por usa-lo.\n ");
 	scanf("%d", &prosseguir);
@@ -211,14 +225,16 @@ void RE1 (){
 		
 		switch (primeiraresposta){
 			case 1: {
-					printf("\nINGREDIENTES SUBSTITUIVEIS\n");
+					printf("+------------------------------------------+\n");
+				    printf("|       INGREDIENTES SUBSTITUIVEIS         |\n");
+				    printf("+------------------------------------------+\n");
 					printf("\nOBS: o fermento e o sal não tem como substituir e a farinha de trigo o ideal é não trocar por outra.");
 					
-					printf("\nPossui acucar |1-SIM| |0-NAO|:  ");
+					printf("\nPossui acucar [1]-SIM | [0]-NAO:  ");
 					scanf("%d", &falta1);
-					printf("\nPossui oleo |1-SIM| |0-NAO|:  ");
+					printf("\nPossui oleo [1]-SIM | [0]-NAO:  ");
 					scanf("%d", &falta2);
-					printf("\nPossui leite |1-SIM| |0-NAO|:  ");
+					printf("\nPossui leite [1]-SIM | [0]-NAO:  ");
 					scanf("%d", &falta3);	
 									
 					combo = (falta1 * 2) + (falta2 * 3) + (falta3 * 4);
