@@ -3,14 +3,14 @@
 
 void P0 (){ //COMECO SESSAO DO PAO=================================================================================================================================
 	
-	int prosseguir;
+	int prosseguir; //COMPLEMENTO
 	printf("\n4 - Sove a massa coloque sobre uma bancada enfarinhada e sove por aproximadamente 10 a 15 minutos, até ficar lisa, macia e elástica.\n ");
 	scanf("%d", &prosseguir);
 	
 	printf("\n5 - Primeiro descanso coloque a massa em uma tigela, cubra e deixe descansarr por aprooximadamente 40 a 60 minutos, ou até crescer bem.\n ");
 	scanf("%d", &prosseguir);
 	
-	printf("6 - Modele os paes divi a massa em pedaços de aproximadamente 60-70g. Abra cada pedaço, enrole bem apertadinho e deixe no formato do pão frances.\n ");
+	printf("6 - Modele os paes divide a massa em pedaços de aproximadamente 60-70g. Abra cada pedaço, enrole bem apertadinho e deixe no formato do pão frances.\n ");
 	scanf("%d", &prosseguir);
 	
 	printf("7 - Segundo descanso coloque os paes em uma assadeira, cubra e deixe descansar por mais 30-40minutos.\n ");
@@ -19,15 +19,15 @@ void P0 (){ //COMECO SESSAO DO PAO==============================================
 	printf("8 - Faça os cortes com uma faca bem afiada ou lamina, faça um corte comprido e superficial na parte de cima de cada pao.\n ");
 	scanf("%d", &prosseguir);	
 	
-	printf("9 - Forno preaqueça o forna a 220-240 °C. Par deixar a casquinha crocante, coloque uma pequena assadeira omága quente no fundo do forno para criar vapor");
+	printf("9 - Forno preaqueça o forna a 220-240 °C. Par deixar a casquinha crocante, coloque uma pequena assadeira omága quente no fundo do forno para criar vapor\n");
 	scanf("%d", &prosseguir);
 	
 	printf("10 - Asse por 15-20 mimuto, até os pães ficarem douradinhos.\n");
 	printf("DICA: o vapor nos primeiros minutos é o que ajuda a deixar aquela casquinha crocante e brlhante, enquanto o interior fica macio.\n");
-	printf("Agora e so aproveitar seus paes fresquinhos e deliciosos!!!!");
+	printf("Agora e so aproveitar seus paes fresquinhos e deliciosos!!!!\n");
 	
 }
-void P1 (){
+void P1 (){ //RECEITA COMPLETA
 	
 	int prosseguir;
 	printf("\nMODO DE PREPARO\n");
@@ -65,7 +65,7 @@ void P1 (){
 	printf("Agora e so aproveitar seus paes fresquinhos e deliciosos!!!!");
 	
 }
-void P2 (){
+void P2 (){ //CASO NÃO TENHA LEITE E ÓLEO
 	
 	int prosseguir;
 	printf("\nMODO DE PREPARO\n");
@@ -82,6 +82,109 @@ void P2 (){
 	
 	P0 ();
 		
+}
+
+void P3(){ //CASO NÃO TENHA AÇUCAR
+    int prosseguir;
+	printf("\nMODO DE PREPARO\n");
+	printf("\nOBS: Use o digito 1 para o check de etapa, para dar prosseguimento\n");
+	
+	printf("1 - Misture os ingredientes secos, em uma tigela coloque a\n farinha, o fermento, uma colher de chá de mel e o melhorador case opte por usa-lo.\n ");
+	scanf("%d", &prosseguir);
+	
+	printf("2 - Adicione o leite e misture.\n ");
+	scanf("%d", &prosseguir);
+	
+	printf("3 - Acrescente o sal e o oleo misture até formar uma massa.\n ");
+	scanf("%d", &prosseguir);
+
+    P0();
+
+}
+
+void P4(){ //CASO NÃO TENHA AÇUCAR E LEITE
+    int prosseguir;
+	printf("\nMODO DE PREPARO\n");
+	printf("\nOBS: Use o digito 1 para o check de etapa, para dar prosseguimento\n");
+	
+	printf("1 - Misture os ingredientes secos, em uma tigela coloque a\n farinha, o fermento, uma colher de chá de mel e o melhorador case opte por usa-lo.\n ");
+	scanf("%d", &prosseguir);
+	
+	printf("2 - Adicione a água morna e misture.\n ");
+	scanf("%d", &prosseguir);
+	
+	printf("3 - Acrescente o sal e o oleo misture até formar uma massa.\n ");
+	scanf("%d", &prosseguir);
+
+    P0();
+}
+
+void P5(){ //CASO NÃO TENHA AÇUCAR E ÓLEO
+    int prosseguir;
+	printf("\nMODO DE PREPARO\n");
+	printf("\nOBS: Use o digito 1 para o check de etapa, para dar prosseguimento\n");
+	
+	printf("1 - Misture os ingredientes secos, em uma tigela coloque a\n farinha, o fermento, uma colher de chá de mel e o melhorador case opte por usa-lo.\n ");
+	scanf("%d", &prosseguir);
+	
+	printf("2 - Adicione o leite e misture.\n ");
+	scanf("%d", &prosseguir);
+	
+	printf("3 - Acrescente o sal e a margarina/manteiga e misture até formar uma massa.\n ");
+	scanf("%d", &prosseguir);
+
+    P0();
+}
+
+void P6(){ //CASO NÃO TENHA LEITE
+    int prosseguir;
+	printf("\nMODO DE PREPARO\n");
+	printf("\nOBS: Use o digito 1 para o check de etapa, para dar prosseguimento\n");
+	
+	printf("1 - Misture os ingredientes secos, em uma tigela coloque a\n farinha, o fermento, o acucar e o melhorador case opte por usa-lo.\n ");
+	scanf("%d", &prosseguir);
+	
+	printf("2 - Adicione a água morna e misture.\n ");
+	scanf("%d", &prosseguir);
+	
+	printf("3 - Acrescente o sal e o oleo misture até formar uma massa.\n ");
+	scanf("%d", &prosseguir);
+
+    P0();
+}
+
+void P7(){ //CASO NÃO TENHA ÓLEO
+    int prosseguir;
+	printf("\nMODO DE PREPARO\n");
+	printf("\nOBS: Use o digito 1 para o check de etapa, para dar prosseguimento\n");
+	
+	printf("1 - Misture os ingredientes secos, em uma tigela coloque a\n farinha, o fermento, o acucar e o melhorador case opte por usa-lo.\n ");
+	scanf("%d", &prosseguir);
+	
+	printf("2 - Adicione o leite e misture.\n ");
+	scanf("%d", &prosseguir);
+	
+	printf("3 - Acrescente o sal, margarina ou manteiga e misture até formar uma massa.\n ");
+	scanf("%d", &prosseguir);
+
+    P0();
+}
+
+void P8(){ //CASO NÃO TENHA AÇUCAR, LEITE E ÓLEO
+    int prosseguir;
+	printf("\nMODO DE PREPARO\n");
+	printf("\nOBS: Use o digito 1 para o check de etapa, para dar prosseguimento\n");
+	
+	printf("1 - Misture os ingredientes secos, em uma tigela coloque a\n farinha, o fermento, use uma colher de chá de mel e o melhorador case opte por usa-lo.\n ");
+	scanf("%d", &prosseguir);
+	
+	printf("2 - Adicione a agua morna e misture.\n ");
+	scanf("%d", &prosseguir);
+	
+	printf("3 - Acrescente o sal e a margarina/manteiga e misture até formar uma massa.\n ");
+	scanf("%d", &prosseguir);
+
+    P0 ();
 }
 void RE1 (){
 		
@@ -126,34 +229,41 @@ void RE1 (){
 						case 3:{
 							 	printf("\nAcucar ---> pode retirar ou use uma colher de chá de mel.");
 							 	printf("\nLeite ---> pode usar agua morna para trocar o leite, use na mesma quantidade.\n");
-							 	P2 ();
+							 	P4 ();
 							break;
 						}
 						case 4:{
 								printf("\nAcucar ---> pode retirar ou use uma colher de chá de mel.");
 								printf("\nOleo ---> use margarina ou manteiga na mesma quantidade.\n");
-								P2 ();
+								P5 ();
 							break;
 						}
 						case 5:{
 								printf("\nLeite ---> pode usar agua morna para trocar o leite, use na mesma quantidade.\n");
-								P2 ();
+								P6 ();
 							break;
 						}
 						case 6:{
 								printf("\nOleo ---> use margarina ou manteiga na mesma quantidade.\n");	
-								P2 ();
+								P7 ();
 							break;
 						}
 						case 7:{
 								printf("\nAcucar ---> pode retirar ou use uma colher de chá de mel.\n");
-								P2 ();
+								P3 ();
 							break;
 						}
 						case 9: {
 								P1 ();
 							break;
 						}
+                        case 0: {
+                            printf("\nAcucar ---> pode retirar ou use uma colher de chá de mel.");
+							printf("\nOleo ---> use margarina ou manteiga na mesma quantidade.");
+                            printf("\nLeite ---> pode usar agua morna para trocar o leite, use na mesma quantidade.\n");
+                            P8 ();
+                            break;
+                        }
 					}										
 			break;
 			}
