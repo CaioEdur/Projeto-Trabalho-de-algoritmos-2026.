@@ -202,9 +202,9 @@ void RE1 (){
 	printf("\n4 - 10g de acucar");
 	printf("\n5 - 300ml de leite");
 	printf("\n6 - 20ml de margarina");
-	printf("\nBonus caso queira - 1 colher de cha de melhorador de farinha");
+	printf("\nCaso queira - 1 colher de cha de melhorador de farinha");
 		
-	printf("\nCaso voce precise substituir alguns, temos alguns ingredientes que podem\n ser trocados, e o seu caso |1 - sim| |0 - nao| : ");
+	printf("\nCaso voce precise substituir alguns, temos alguns ingredientes que podem\nser trocados, e o seu caso? [1] - sim | [0]- nao : ");
 	scanf("%d", &primeiraresposta);
 		
 		switch (primeiraresposta){
