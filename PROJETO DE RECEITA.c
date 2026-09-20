@@ -188,7 +188,9 @@ void P8(){ //CASO NÃO TENHA AÇUCAR, LEITE E ÓLEO
 }
 void RE1 (){
 		
-	printf("=======PAO========");
+    printf("+------------------------------------------+\n");
+    printf("|                  PAO                     |\n");
+    printf("+------------------------------------------+\n");
 		
 	int primeiraresposta, falta1 , falta2 , falta3 , combo;
 		
