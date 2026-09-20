@@ -299,7 +299,17 @@ int main(int argc, char *argv[]) {
 	
 	int op;
 	
-	printf("\nRECEITA: ");
+	printf("+-------------------------------------------+\n");
+	printf("|            LIVRO DE RECEITAS              |\n");
+	printf("+-------------------------------------------+\n");
+	printf("| Escolha uma receita:                      |\n");
+	printf("| 1 - Pao                                   |\n");
+	printf("| 2 - (em breve)                            |\n");
+	printf("| 3 - (em breve)                            |\n");
+	printf("| ...                                       |\n");
+	printf("| 0 - Sair                                  |\n");
+	printf("+-------------------------------------------+\n");
+	
 	scanf("%d", &op);
 	
 	switch (op){
