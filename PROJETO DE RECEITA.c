@@ -1,5 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+
+void cabecalho(const char *titulo) {
+    printf("\n+-------------------------------------------+\n");
+    printf("|%*s%s%*s|\n",
+           (45 - (int)strlen(titulo))/2, "",
+           titulo,
+           (45 - (int)strlen(titulo) + 1)/2, "");
+    printf("+-------------------------------------------+\n");
+}
 
 void P0 (){ //COMECO SESSAO DO PAO=================================================================================================================================
 
