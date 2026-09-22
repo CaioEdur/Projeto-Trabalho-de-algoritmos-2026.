@@ -40,9 +40,7 @@ void P0 (){ //COMECO SESSAO DO PAO==============================================
 void P1 (){ //RECEITA COMPLETA
 
 	int prosseguir;
-	printf("+-------------------------------------------+\n");
-    printf("|               MODO DE PREPARO             |\n");
-    printf("+-------------------------------------------+\n");
+	cabecalho("MODO DE PREPARO");
 	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 
 	printf("1 - Misture os ingredientes secos, em uma tigela coloque a\n farinha, o fermento, o acucar e o melhorador case opte por usa-lo.\n ");
@@ -80,9 +78,7 @@ void P1 (){ //RECEITA COMPLETA
 void P2 (){ //CASO NÃO TENHA LEITE E ÓLEO
 
 	int prosseguir;
-	printf("+-------------------------------------------+\n");
-    printf("|               MODO DE PREPARO             |\n");
-    printf("+-------------------------------------------+\n");
+	cabecalho("MODO DE PREPARO");
 	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 
 	printf("1 - Misture os ingredientes secos, em uma tigela coloque a\n farinha, o fermento, o acucar e o melhorador case opte por usa-lo.\n ");
@@ -100,9 +96,7 @@ void P2 (){ //CASO NÃO TENHA LEITE E ÓLEO
 
 void P3(){ //CASO NÃO TENHA AÇUCAR
     int prosseguir;
-    printf("+-------------------------------------------+\n");
-    printf("|               MODO DE PREPARO             |\n");
-    printf("+-------------------------------------------+\n");
+    cabecalho("MODO DE PREPARO");
 	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 
 	printf("1 - Misture os ingredientes secos, em uma tigela coloque a\n farinha, o fermento, uma colher de chá de mel e o melhorador case opte por usa-lo.\n ");
@@ -120,9 +114,7 @@ void P3(){ //CASO NÃO TENHA AÇUCAR
 
 void P4(){ //CASO NÃO TENHA AÇUCAR E LEITE
     int prosseguir;
-	printf("+-------------------------------------------+\n");
-    printf("|               MODO DE PREPARO             |\n");
-    printf("+-------------------------------------------+\n");
+	cabecalho("MODO DE PREPARO");
 	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 
 	printf("1 - Misture os ingredientes secos, em uma tigela coloque a\n farinha, o fermento, uma colher de chá de mel e o melhorador case opte por usa-lo.\n ");
@@ -139,9 +131,7 @@ void P4(){ //CASO NÃO TENHA AÇUCAR E LEITE
 
 void P5(){ //CASO NÃO TENHA AÇUCAR E ÓLEO
     int prosseguir;
-	printf("+-------------------------------------------+\n");
-    printf("|               MODO DE PREPARO             |\n");
-    printf("+-------------------------------------------+\n");
+	cabecalho("MODO DE PREPARO");
 	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 
 	printf("1 - Misture os ingredientes secos, em uma tigela coloque a\n farinha, o fermento, uma colher de chá de mel e o melhorador case opte por usa-lo.\n ");
@@ -158,9 +148,7 @@ void P5(){ //CASO NÃO TENHA AÇUCAR E ÓLEO
 
 void P6(){ //CASO NÃO TENHA LEITE
     int prosseguir;
-	printf("+-------------------------------------------+\n");
-    printf("|               MODO DE PREPARO             |\n");
-    printf("+-------------------------------------------+\n");
+	cabecalho("MODO DE PREPARO");
 	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 
 	printf("1 - Misture os ingredientes secos, em uma tigela coloque a\n farinha, o fermento, o acucar e o melhorador case opte por usa-lo.\n ");
@@ -177,9 +165,7 @@ void P6(){ //CASO NÃO TENHA LEITE
 
 void P7(){ //CASO NÃO TENHA ÓLEO
     int prosseguir;
-	printf("+-------------------------------------------+\n");
-    printf("|               MODO DE PREPARO             |\n");
-    printf("+-------------------------------------------+\n");
+	cabecalho("MODO DE PREPARO");
 	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 
 	printf("1 - Misture os ingredientes secos, em uma tigela coloque a\n farinha, o fermento, o acucar e o melhorador case opte por usa-lo.\n ");
@@ -196,9 +182,7 @@ void P7(){ //CASO NÃO TENHA ÓLEO
 
 void P8(){ //CASO NÃO TENHA AÇUCAR, LEITE E ÓLEO
     int prosseguir;
-	printf("+-------------------------------------------+\n");
-    printf("|               MODO DE PREPARO             |\n");
-    printf("+-------------------------------------------+\n");
+	cabecalho("MODO DE PREPARO");
 	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 
 	printf("1 - Misture os ingredientes secos, em uma tigela coloque a\n farinha, o fermento, use uma colher de chá de mel e o melhorador case opte por usa-lo.\n ");
@@ -375,9 +359,7 @@ void C_tail(){ //passos finais + cobertura, nunca mudam (6,7,8 + cobertura)
 
 void C1(){ //RECEITA COMPLETA, sem substituicao
 	int prosseguir;
-	printf("+-------------------------------------------+\n");
-    printf("|               MODO DE PREPARO             |\n");
-    printf("+-------------------------------------------+\n");
+	cabecalho("MODO DE PREPARO");
 	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 
 	printf("\n1 - No liquidificador, coloque as cenouras, os ovos e o oleo: bata ate ficar bem lisinho.\n ");
@@ -390,9 +372,7 @@ void C1(){ //RECEITA COMPLETA, sem substituicao
 
 void C2(){ //CASO NAO TENHA FERMENTO QUIMICO
 	int prosseguir;
-	printf("+-------------------------------------------+\n");
-    printf("|               MODO DE PREPARO             |\n");
-    printf("+-------------------------------------------+\n");
+	cabecalho("MODO DE PREPARO");
 	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 
 	printf("\n1 - No liquidificador, coloque as cenouras, os ovos e o oleo: bata ate ficar bem lisinho.\n ");
@@ -405,9 +385,7 @@ void C2(){ //CASO NAO TENHA FERMENTO QUIMICO
 
 void C3(){ //CASO NAO TENHA OLEO
 	int prosseguir;
-	printf("+-------------------------------------------+\n");
-    printf("|               MODO DE PREPARO             |\n");
-    printf("+-------------------------------------------+\n");
+	cabecalho("MODO DE PREPARO");
 	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 
 	printf("\n1 - No liquidificador, coloque as cenouras, os ovos e a manteiga/margarina derretida: bata ate ficar bem lisinho.\n ");
@@ -420,9 +398,7 @@ void C3(){ //CASO NAO TENHA OLEO
 
 void C0(){ //CASO NAO TENHA OLEO E FERMENTO QUIMICO
 	int prosseguir;
-	printf("+-------------------------------------------+\n");
-    printf("|               MODO DE PREPARO             |\n");
-    printf("+-------------------------------------------+\n");
+	cabecalho("MODO DE PREPARO");
 	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 
 	printf("\n1 - No liquidificador, coloque as cenouras, os ovos e a manteiga/margarina derretida: bata ate ficar bem lisinho.\n ");
@@ -533,9 +509,7 @@ void V_tail(){ //passos 3 a 11, nunca mudam
 
 void V1(){ //RECEITA COMPLETA, sem substituicao
 	int prosseguir;
-	printf("+-------------------------------------------+\n");
-    printf("|               MODO DE PREPARO             |\n");
-    printf("+-------------------------------------------+\n");
+	cabecalho("MODO DE PREPARO");
 	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 
 	printf("\n1 - Em uma tigela, coloque farinha, acucar, sal e fermento quimico.\n ");
@@ -547,9 +521,7 @@ void V1(){ //RECEITA COMPLETA, sem substituicao
 
 void V2(){ //FALTA ACUCAR E FERMENTO (tem leite)
 	int prosseguir;
-	printf("+-------------------------------------------+\n");
-    printf("|               MODO DE PREPARO             |\n");
-    printf("+-------------------------------------------+\n");
+	cabecalho("MODO DE PREPARO");
 	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 
 	printf("\n1 - Em uma tigela, coloque farinha, acucar mascavo, sal e bicarbonato de sodio.\n ");
@@ -561,9 +533,7 @@ void V2(){ //FALTA ACUCAR E FERMENTO (tem leite)
 
 void V3(){ //FALTA LEITE E FERMENTO (tem acucar)
 	int prosseguir;
-	printf("+-------------------------------------------+\n");
-    printf("|               MODO DE PREPARO             |\n");
-    printf("+-------------------------------------------+\n");
+	cabecalho("MODO DE PREPARO");
 	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 
 	printf("\n1 - Em uma tigela, coloque farinha, acucar, sal e bicarbonato de sodio.\n ");
@@ -575,9 +545,7 @@ void V3(){ //FALTA LEITE E FERMENTO (tem acucar)
 
 void V4(){ //FALTA LEITE E ACUCAR (tem fermento)
 	int prosseguir;
-	printf("+-------------------------------------------+\n");
-    printf("|               MODO DE PREPARO             |\n");
-    printf("+-------------------------------------------+\n");
+	cabecalho("MODO DE PREPARO");
 	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 
 	printf("\n1 - Em uma tigela, coloque farinha, acucar mascavo, sal e fermento quimico.\n ");
@@ -589,9 +557,7 @@ void V4(){ //FALTA LEITE E ACUCAR (tem fermento)
 
 void V5(){ //FALTA SO FERMENTO (tem leite e acucar)
 	int prosseguir;
-	printf("+-------------------------------------------+\n");
-    printf("|               MODO DE PREPARO             |\n");
-    printf("+-------------------------------------------+\n");
+	cabecalho("MODO DE PREPARO");
 	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 
 	printf("\n1 - Em uma tigela, coloque farinha, acucar, sal e bicarbonato de sodio.\n ");
@@ -603,9 +569,7 @@ void V5(){ //FALTA SO FERMENTO (tem leite e acucar)
 
 void V6(){ //FALTA SO ACUCAR (tem leite e fermento)
 	int prosseguir;
-	printf("+-------------------------------------------+\n");
-    printf("|               MODO DE PREPARO             |\n");
-    printf("+-------------------------------------------+\n");
+	cabecalho("MODO DE PREPARO");
 	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 
 	printf("\n1 - Em uma tigela, coloque farinha, acucar mascavo, sal e fermento quimico.\n ");
@@ -617,9 +581,7 @@ void V6(){ //FALTA SO ACUCAR (tem leite e fermento)
 
 void V7(){ //FALTA SO LEITE (tem acucar e fermento)
 	int prosseguir;
-	printf("+-------------------------------------------+\n");
-    printf("|               MODO DE PREPARO             |\n");
-    printf("+-------------------------------------------+\n");
+	cabecalho("MODO DE PREPARO");
 	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 
 	printf("\n1 - Em uma tigela, coloque farinha, acucar, sal e fermento quimico.\n ");
@@ -631,9 +593,7 @@ void V7(){ //FALTA SO LEITE (tem acucar e fermento)
 
 void V0(){ //FALTA LEITE, ACUCAR E FERMENTO
 	int prosseguir;
-	printf("+-------------------------------------------+\n");
-    printf("|               MODO DE PREPARO             |\n");
-    printf("+-------------------------------------------+\n");
+	cabecalho("MODO DE PREPARO");
 	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 
 	printf("\n1 - Em uma tigela, coloque farinha, acucar mascavo, sal e bicarbonato de sodio.\n ");
@@ -740,9 +700,7 @@ void RE3 (){
 //COMECO SESSAO BOLO DE LARANJA (re4)=======================================================================================================================
 void L_intro(){ //passo 1, nunca muda
 	int prosseguir;
-	printf("+-------------------------------------------+\n");
-    printf("|               MODO DE PREPARO             |\n");
-    printf("+-------------------------------------------+\n");
+	cabecalho("MODO DE PREPARO");
 	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 
 	printf("\n1 - Preaqueca o forno a 180 °C.\n ");
@@ -941,9 +899,7 @@ void RE4 (){
 //COMECO SESSAO PAO DE QUEIJO (re5)=========================================================================================================================
 void Q_intro(){ //passo 1, nunca muda
 	int prosseguir;
-	printf("+-------------------------------------------+\n");
-    printf("|               MODO DE PREPARO             |\n");
-    printf("+-------------------------------------------+\n");
+	cabecalho("MODO DE PREPARO");
 	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 
 	printf("\n1 - Preaqueca o forno a 200 °C.\n ");
@@ -1090,9 +1046,7 @@ void RE5 (){
 //COMECO SESSAO BAURU (re6)=================================================================================================================================
 void B_intro(){ //passo 1, nunca muda
 	int prosseguir;
-	printf("+-------------------------------------------+\n");
-    printf("|               MODO DE PREPARO             |\n");
-    printf("+-------------------------------------------+\n");
+	cabecalho("MODO DE PREPARO");
 	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 
 	printf("\n1 - Preaqueca o forno a 180 °C.\n ");
@@ -1371,9 +1325,7 @@ void M_tail(){ //passos 2 a 11 das casquinhas + recheio, nunca mudam
 
 void M1(){ //RECEITA COMPLETA, sem substituicao
 	int prosseguir;
-	printf("+-------------------------------------------+\n");
-    printf("|               MODO DE PREPARO             |\n");
-    printf("+-------------------------------------------+\n");
+	cabecalho("MODO DE PREPARO");
 	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 
 	printf("\n1 - Peneire a farinha de amendoas junto com o acucar de confeiteiro. Reserve.\n ");
@@ -1383,9 +1335,7 @@ void M1(){ //RECEITA COMPLETA, sem substituicao
 
 void M2(){ //TEM FARINHA DE AMENDOAS, FALTA ACUCAR DE CONFEITEIRO
 	int prosseguir;
-	printf("+-------------------------------------------+\n");
-    printf("|               MODO DE PREPARO             |\n");
-    printf("+-------------------------------------------+\n");
+	cabecalho("MODO DE PREPARO");
 	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 
 	printf("\n1 - Peneire a farinha de amendoas junto com acucar refinado bem triturado e peneirado. Reserve.\n ");
@@ -1395,9 +1345,7 @@ void M2(){ //TEM FARINHA DE AMENDOAS, FALTA ACUCAR DE CONFEITEIRO
 
 void M3(){ //TEM ACUCAR DE CONFEITEIRO, FALTA FARINHA DE AMENDOAS
 	int prosseguir;
-	printf("+-------------------------------------------+\n");
-    printf("|               MODO DE PREPARO             |\n");
-    printf("+-------------------------------------------+\n");
+	cabecalho("MODO DE PREPARO");
 	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 
 	printf("\n1 - Peneire a farinha de castanha de caju junto com o acucar de confeiteiro. Reserve.\n ");
@@ -1407,9 +1355,7 @@ void M3(){ //TEM ACUCAR DE CONFEITEIRO, FALTA FARINHA DE AMENDOAS
 
 void M0(){ //FALTA FARINHA DE AMENDOAS E ACUCAR DE CONFEITEIRO
 	int prosseguir;
-	printf("+-------------------------------------------+\n");
-    printf("|               MODO DE PREPARO             |\n");
-    printf("+-------------------------------------------+\n");
+	cabecalho("MODO DE PREPARO");
 	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 
 	printf("\n1 - Peneire a farinha de castanha de caju junto com acucar refinado bem triturado e peneirado. Reserve.\n ");
@@ -1520,9 +1466,7 @@ void T_tail(){ //passos 8 a 11, nunca mudam
 
 void T1(){ //RECEITA COMPLETA, sem substituicao
 	int prosseguir;
-	printf("+-------------------------------------------+\n");
-    printf("|               MODO DE PREPARO             |\n");
-    printf("+-------------------------------------------+\n");
+	cabecalho("MODO DE PREPARO");
 	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 
 	printf("\n1 - Preaqueca o forno a 180 °C.\n ");
@@ -1541,9 +1485,7 @@ void T1(){ //RECEITA COMPLETA, sem substituicao
 
 void T2(){ //TEM MANTEIGA, FALTA ACUCAR E LIMAO
 	int prosseguir;
-	printf("+-------------------------------------------+\n");
-    printf("|               MODO DE PREPARO             |\n");
-    printf("+-------------------------------------------+\n");
+	cabecalho("MODO DE PREPARO");
 	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 
 	printf("\n1 - Preaqueca o forno a 180 °C.\n ");
@@ -1562,9 +1504,7 @@ void T2(){ //TEM MANTEIGA, FALTA ACUCAR E LIMAO
 
 void T3(){ //TEM ACUCAR, FALTA MANTEIGA E LIMAO
 	int prosseguir;
-	printf("+-------------------------------------------+\n");
-    printf("|               MODO DE PREPARO             |\n");
-    printf("+-------------------------------------------+\n");
+	cabecalho("MODO DE PREPARO");
 	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 
 	printf("\n1 - Preaqueca o forno a 180 °C.\n ");
@@ -1583,9 +1523,7 @@ void T3(){ //TEM ACUCAR, FALTA MANTEIGA E LIMAO
 
 void T4(){ //TEM LIMAO, FALTA MANTEIGA E ACUCAR
 	int prosseguir;
-	printf("+-------------------------------------------+\n");
-    printf("|               MODO DE PREPARO             |\n");
-    printf("+-------------------------------------------+\n");
+	cabecalho("MODO DE PREPARO");
 	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 
 	printf("\n1 - Preaqueca o forno a 180 °C.\n ");
@@ -1604,9 +1542,7 @@ void T4(){ //TEM LIMAO, FALTA MANTEIGA E ACUCAR
 
 void T5(){ //TEM MANTEIGA E ACUCAR, FALTA LIMAO
 	int prosseguir;
-	printf("+-------------------------------------------+\n");
-    printf("|               MODO DE PREPARO             |\n");
-    printf("+-------------------------------------------+\n");
+	cabecalho("MODO DE PREPARO");
 	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 
 	printf("\n1 - Preaqueca o forno a 180 °C.\n ");
@@ -1625,9 +1561,7 @@ void T5(){ //TEM MANTEIGA E ACUCAR, FALTA LIMAO
 
 void T6(){ //TEM MANTEIGA E LIMAO, FALTA ACUCAR
 	int prosseguir;
-	printf("+-------------------------------------------+\n");
-    printf("|               MODO DE PREPARO             |\n");
-    printf("+-------------------------------------------+\n");
+	cabecalho("MODO DE PREPARO");
 	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 
 	printf("\n1 - Preaqueca o forno a 180 °C.\n ");
@@ -1646,9 +1580,7 @@ void T6(){ //TEM MANTEIGA E LIMAO, FALTA ACUCAR
 
 void T7(){ //TEM ACUCAR E LIMAO, FALTA MANTEIGA
 	int prosseguir;
-	printf("+-------------------------------------------+\n");
-    printf("|               MODO DE PREPARO             |\n");
-    printf("+-------------------------------------------+\n");
+	cabecalho("MODO DE PREPARO");
 	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 
 	printf("\n1 - Preaqueca o forno a 180 °C.\n ");
@@ -1667,9 +1599,7 @@ void T7(){ //TEM ACUCAR E LIMAO, FALTA MANTEIGA
 
 void T0(){ //FALTA MANTEIGA, ACUCAR E LIMAO
 	int prosseguir;
-	printf("+-------------------------------------------+\n");
-    printf("|               MODO DE PREPARO             |\n");
-    printf("+-------------------------------------------+\n");
+	cabecalho("MODO DE PREPARO");
 	printf("\nOBS: Use o digito [1] para o check de etapa, para dar prosseguimento\n");
 
 	printf("\n1 - Preaqueca o forno a 180 °C.\n ");
